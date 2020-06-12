@@ -15,7 +15,7 @@ h1 {
 .container {
   display: inline-block;
   height: 25.9rem;
-  width: 20.75rem;
+  width: 28.8rem;
   font-size: 3rem;
 }
 
@@ -36,20 +36,20 @@ h1 {
 
 .key {
   height: 5rem;
-  width: 5rem;
+  width: 7rem;
   border: 1.5px white solid;
   background: rgb(109, 224, 94);
   color: rgb(62, 30, 207);
+  transition: ease 0.5s;
 }
 .key:hover {
   background: rgb(72, 192, 56);
   color: white;
-  box-shadow: 0 0 8px 1px black;
 }
 .key:first-child {
   color: rgb(207, 30, 60);
 }
 .key > span {
   position: relative;
-  top: 15%;
+  top: 20%;
 }
